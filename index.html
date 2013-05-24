@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" content="text/html" http-equiv="Content-Type">
+    <meta content="width=280, user-scalable=no" name="viewport">
+    <title>
+      Door Server
+    </title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+      var linda_url = "http://linda.masuilab.org";
+      var tuple = ["door", "open"];
+      var space = "delta";
+    </script>
+    <script src="/js/jquery.rotate.js" type="text/javascript"></script>
+    <script src="/js/goldfish.js" type="text/javascript"></script>
+    <script src="/js/goldfish-door.js" type="text/javascript"></script>
+    <style>
+      html{
+        height : 100%;
+      }
+      body{
+        background-color : #99cc99;
+        height : 100%;
+      }
+      img#turn{
+        width : 30px;
+        height : 200px;
+        position : relative;
+        top : 0px;
+        left : -118px;
+      }
+      img#sum{
+        width : 200px;
+        height : 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div id="header">
+        <h1>
+          Door Server
+        </h1>
+      </div>
+      <div id="main">
+        <p>
+          angle :
+          <span id="angle">---</span>
+        </p>
+        <p>
+          <img id="sum" src="/img/sum.png">
+          <img id="turn" src="/img/turn.png">
+        </p>
+      </div>
+      <hr>
+      <div id="footer">
+        source code :
+        <a href="https://github.com/masuilab/door-server">https://github.com/masuilab/door-server</a>
+      </div>
+    </div>
+  </body>
+</html>
