@@ -13,6 +13,12 @@ Dependencies
 - [LindaBase](https://github.com/shokai/linda-base)
 
 
+Config
+------
+
+    % cp sample.config.js config.js
+
+
 Run
 ---
 
