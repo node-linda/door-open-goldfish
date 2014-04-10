@@ -1,16 +1,16 @@
-Linda Door Open GoldFish
-========================
-open door with GoldFish and RocketIO::Linda
+Node-Linda Door Open GoldFish
+=============================
+open door with GoldFish and node-linda
 
-* https://github.com/shokai/linda-door-open-goldfish
-* write tuple ["door", "open"]
+* https://github.com/node-linda/door-open-goldfish
+* https://node-linda.github.io/door-open-goldfish
+* write tuple {type: "door", cmd: "open"}
 
 
 Dependencies
 ------------
 - [GoldFish](http://ubif.org/goldfish)
-- [linda-door-phidgets-servo](https://github.com/shokai/linda-door-phidgets-servo)
-- [LindaBase](https://github.com/shokai/linda-base)
+- https://github.com/node-linda/node-linda-door-open-delta
 
 
 Config
