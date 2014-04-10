@@ -1,7 +1,7 @@
 var door_open = function(){
   $.ajax(
     {
-      url : linda_url+"/"+space+".write",
+      url : linda_url+"/"+space,
       type : 'POST',
       data : {tuple: JSON.stringify(tuple)},
       success : function(data,type){
